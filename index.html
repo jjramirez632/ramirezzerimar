@@ -1,0 +1,87 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page" data-theme="b"> 
+	<div data-role="header">
+		<h1 style="color:#FF0">Computadoras</h1>
+	</div>
+    <div data-role="content">
+    <div align="center"
+    <img src="images/BD19582_.GIF" width="122" height="182" longdesc="images/BD19582_.GIF">
+    </div>
+    <p>
+    <h1 align="center" style="color:#C00"> BIENVENIDOS<h1>
+    <h2 align="center" style="color: #FF0"> Aqui encontraras una variedad de computadoras de acuerdo a tus necesidades<h1>
+    
+		<ul data-role="listview" data-inset="true" data-filter="true" data-filter-theme="a" data-filter-placeholder="Galeria de computadoras">
+        
+		  <li><a href="#page2" data-transition="flip">Escritorio<img src="images/AG00154_.GIF" width="100" height="88" longdesc="images/AG00154_.GIF"></a></li>
+          
+            <li><a href="#page3" data-transition="pop">Portatil<img src="images/PH02742G.GIF" width="100" height="50" longdesc="images/PH02742G.GIF"></a></li>
+            
+  <li><a href="#page4" data-transition="fade">Minis<img src="images/00088989915247l.jpg" width="100" height="100" longdesc= longdesc="images/00088989915247l.jpg"></a></li>
+	  </ul>		
+  </li> </div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1 style="color:#FF0">Página dos</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> <a href="#page" data-role="button" data-icon="back" data-transition="flip">Regresar </a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Página tres</h1>
+        
+        <div data-role="navbar">
+        <ul>
+        <li><a href="#page"
+        class="ui-btn-active ui-state-persist"
+        data-icon="home">Inicio</a></li>
+        <li><a href="#" data-icon="arrow-r">
+        Enlace deshabilitado</a></li>
+        <li><a href="#" data-icon="arrow-u">
+        Enlace deshabilitado</a></li>
+        </ul>
+        </div>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> <a href="#page" data-role="button" data-icon="back" data-transition="flip">Regresar </a></h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content">	
+		Contenido		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4> <a href="#page" data-role="button" data-transition="flip">Regresar </a></h4>
+	</div>
+</div>
+
+</body>
+</html>
